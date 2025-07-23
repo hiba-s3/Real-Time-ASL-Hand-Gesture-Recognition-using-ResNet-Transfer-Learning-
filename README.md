@@ -12,14 +12,14 @@ This project implements a **real-time hand gesture recognition system** for **Am
 - **Technique**: Transfer Learning (fine-tuning on ASL dataset)
 - **Framework**: PyTorch
 - **Input**: Webcam frames or image files
-- **Output**: Predicted ASL class label (A–Z, excluding dynamic signs)
+- **Output**: Predicted ASL class label ('F', 'G', 'H', 'I', 'R', 'O', 'Q', 'T', 'U', 'V')
 
 ---
 
 ## 🗂 Dataset
 
 - **Source**: ASL Alphabet Dataset (Kaggle / Custom-preprocessed)
-- **Classes**: A–Z (except `J` and `Z` which involve motion)
+- **Classes**:'F', 'G', 'H', 'I', 'R', 'O', 'Q', 'T', 'U', 'V'
 - **Images**: Grayscale or RGB images of hand gestures
 
 > 🔒 The dataset used for training is publicly available and widely used in gesture recognition tasks.
